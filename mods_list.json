@@ -1,44 +1,48 @@
 {
-    "comments": {
-        "format": {
-            "format": "{ \"mods\": { CATEGORY: [ [MOD-NAME, VERSION-NUMBER, CLIENT-SIDE-ONLY] ] } }",
-            "expl.": "MOD-NAME and VERSION-NUMBER are strings that represent, respectively, the names and version numbers of the mod in the Modrinth API",
-            "expl.2": "CLIENT-SIDE-ONLY is a binary value: true means the mod is a client-side only mod while false means the mod needs to be installed on both the client and the server"
-        }
-    },
-    "mods": {
-        "performance": [
-            ["dynamic-fps", "6ZZnpiKt", true],
-            ["ferrite-core", "6.0.1", false],
-            ["indium", "1.0.21+mc1.20.1", true],
-            ["iris", "1.6.4+1.20", true],
-            ["krypton", "0.2.3", false],
-            ["sodium-extra", "mc1.20.1-0.4.27", true],
-            ["sodium", "mc1.20-0.4.10", true]
-        ],
-        "utility": [
-            ["gamma-utils", "1.7.16", true],
-            ["reeses-sodium-options", "mc1.20.1-1.6.3", true],
-            ["xaeros-minimap", "23.9.7_Fabric_1.20", true],
-            ["xaeros-world-map", "1.37.8_Fabric_1.20", true],
-            ["zoomify", "2.11.2", true]
-        ],
-        "content": [
-            ["adventurez", "1.4.20+1.20.1", false],
-            ["archers", "1.0.7+1.20.1", false],
-            ["better-combat", "1.8.4+1.20.1-fabric", false],
-            ["create-fabric", "0.5.1-d-build.1161+mc1.20.1", false],
-            ["deeperdarker", "1.2.6", false],
-            ["enchancement", "1.20-13", false],
-            ["endrem", "5.2.4", false],
-            ["friends-and-foes", "fabric-mc1.20.1-2.0.9", false],
-            ["universal-graves", "3.0.1+1.20.1", false],
-            ["lmft", "IWpydKCV", false],
-            ["create-steam-n-rails", "1.5.1-fabric-mc1.20.1", false],
-            ["voidz", "1.0.11+1.20.1", false],
-            ["wizards", "1.0.5+1.20.1", false]
-        ],
-        "dependencies": [
-        ]
-    }
+	"comments": {
+		"format": {
+			"format": "{ \"mods\": { CATEGORY: [ [MOD-NAME, VERSION-NUMBER, CLIENT-SIDE-ONLY] ] } }",
+			"expl.": "MOD-NAME and VERSION-NUMBER are strings that represent, respectively, the names and version numbers of the mod in the Modrinth API",
+			"expl.2": "CLIENT-SIDE-ONLY is a binary value: true means the mod is a client-side only mod while false means the mod needs to be installed on both the client and the server"
+		}
+	},
+	"mods": {
+		"performance": [
+			["dynamic-fps", "6ZZnpiKt", true],
+			["ebe", "0.9+1.20", true],
+			["entityculling", "BDwHAdWc", true],
+			["ferrite-core", "6.0.1", false],
+			["immediatelyfast", "1.2.10+1.20.4-fabric", true],
+			["indium", "1.0.21+mc1.20.1", true],
+			["iris", "1.6.4+1.20", true],
+			["krypton", "0.2.3", false],
+			["memoryleakfix", "v1.1.5", false],
+			["sodium-extra", "mc1.20.1-0.4.27", true],
+			["sodium", "mc1.20-0.4.10", true]
+		],
+		"utility": [
+			["gamma-utils", "1.7.16", true],
+			["modmenu", "7.2.2", true],
+			["reeses-sodium-options", "mc1.20.1-1.6.3", true],
+			["travelers-titles", "1.20-Fabric-4.0.2", true],
+			["xaeros-minimap", "23.9.7_Fabric_1.20", true],
+			["xaeros-world-map", "1.37.8_Fabric_1.20", true],
+			["zoomify", "2.11.2", true]
+		],
+		"content": [
+			["adventurez", "1.4.20+1.20.1", false],
+			["archers", "1.0.7+1.20.1", false],
+			["better-combat", "1.8.4+1.20.1-fabric", false],
+			["create-fabric", "0.5.1-d-build.1161+mc1.20.1", false],
+			["deeperdarker", "1.2.6", false],
+			["enchancement", "1.20-13", false],
+			["endrem", "5.2.4", false],
+			["friends-and-foes", "fabric-mc1.20.1-2.0.9", false],
+			["universal-graves", "3.0.1+1.20.1", false],
+			["lmft", "IWpydKCV", false],
+			["create-steam-n-rails", "1.5.1-fabric-mc1.20.1", false],
+			["voidz", "1.0.11+1.20.1", false],
+			["wizards", "1.0.5+1.20.1", false]
+		]
+	}
 }
