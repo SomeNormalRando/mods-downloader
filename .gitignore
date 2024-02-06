@@ -1,3 +1,4 @@
 .venv/
 OUTPUT_MODS/
+SERVER_OUTPUT_MODS/
 server_only_mods_list.json
